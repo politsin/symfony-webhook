@@ -1,0 +1,8 @@
+framework:
+  # remote-event: true
+  webhook:
+    routing:
+      # path: /webhook/tg
+      tg:
+        service: App\Webhook\TgWebhookParser
+        secret: foo-secret

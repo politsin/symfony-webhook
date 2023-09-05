@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Conference Guestbook{% endblock %}
+
+{% block body %}
+    <h2 class="mb-5">
+        {{ 'Hello'|trans }}
+        {{ hello }}
+    </h2>
+    <ul>
+      <li><a href='/blank'>Blank</a>
+      <li><a href='/blank/hello'>Blank/hello</a>
+      <li><a href='/elastic-test'>Elastic test</a>
+    </ul>
+{% endblock %}

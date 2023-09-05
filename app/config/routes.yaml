@@ -1,0 +1,9 @@
+controllers:
+  resource:
+    path: ../src/Controller/
+    namespace: App\Controller
+  type: attribute
+
+webhook:
+  resource: "@FrameworkBundle/Resources/config/routing/webhook.xml"
+  prefix: /webhook
